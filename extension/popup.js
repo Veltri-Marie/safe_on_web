@@ -104,7 +104,7 @@ async function onWindowLoad() {
 
         console.log("Reponse : " + response)
 
-        const url = "http://localhost:5083/Censorship/censor";
+    const url = "http://localhost:5090/Censorship/censor";
 
         let json_response = await fetch(url, {
             method: "POST",
